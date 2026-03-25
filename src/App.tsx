@@ -552,10 +552,16 @@ export default function App() {
                 ))}
               </div>
 
-              <button className="flex w-full items-center justify-center gap-2 rounded-full bg-[#10b981] py-4 text-base font-black text-white shadow-xl transition-all hover:scale-105 hover:bg-[#059669] active:scale-95 md:py-5 md:text-lg">
-                <ShoppingCart className="h-5 w-5 md:h-6 md:w-6" />
-                QUERO O PREMIUM
-              </button>
+              <a 
+  href="https://pay.wiapy.com/DNpkg_F8-c" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <button className="flex w-full items-center justify-center gap-2 rounded-full bg-[#10b981] py-4 text-base font-black">
+    <ShoppingCart className="h-5 w-5 md:h-6 md:w-6" />
+    QUERO O PREMIUM
+  </button>
+</a>
             </div>
           </div>
         </div>
